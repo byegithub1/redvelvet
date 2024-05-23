@@ -1,0 +1,137 @@
+{
+  "Home": {
+    "title": "Développeur JavaScript",
+    "subtitle": "",
+    "contents": {
+      "s1": "Heureux de vous voir.\n\nPour des informations et des demandes commerciales, veuillez vous référer à",
+      "s2": "et si vous préférez",
+      "s3": "\n\nDans l'attente de vos nouvelles."
+    }
+  },
+  "Write": {
+    "title": "Écrire",
+    "subtitle": "Collection de papiers et de logiciels",
+    "contents": {
+      "s1": "",
+      "papers": [
+        {
+          "title": "L'art de la cachette dans les petits espaces : Tinyseed",
+          "subtitle": "14 décembre 2023",
+          "pinned": false,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/tinyseed",
+          "date": "Déc 2023",
+          "official_tinyseed_url": {
+            "label": "tinyseed.io",
+            "link": "https://tinyseed.io"
+          },
+          "warning": "Aucune donnée ne quitte absolument ce site. Tout est sur votre machine, toutes les données en file d'attente sont immédiatement purgées après traitement.",
+          "buttons": {
+            "read_more": "Lire la suite",
+            "close": "Fermer",
+            "words": "mots",
+            "indexes": "index"
+          },
+          "pre_content": "Implémentation numérique de ",
+          "content": ", Tinyseed vous permet de sauvegarder la phrase de récupération ou les parts secrètes de Shamir de votre portefeuille. Il vous permet de protéger Bitcoin, Ethereum et NFT contre la perte.",
+          "sub_content": "Vous pouvez imprimer (Ctrl+P ou ⌘ Command+P) cette page et la garder en sécurité.",
+          "choose_proposal": "Choisissez une des propositions :",
+          "parts": {
+            "use": "utiliser",
+            "instead": "au lieu de"
+          }
+        },
+        {
+          "title": "Chercher la liberté au-delà du terrier : Thèse I",
+          "subtitle": "15 septembre 2023\nDernière mise à jour le 30 avril 2024",
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/thesis-i",
+          "date": "Sep 2023",
+          "warning": "En phase de développement",
+          "incomplete": "Incomplet",
+          "incomplete_content": "Pour débloquer l'ensemble du document, signez les mots ci-dessous :",
+          "signature": "Signature",
+          "verify": "Vérifier",
+          "notification": {
+            "title": "Désolé :(",
+            "content": "Cette page ne dispose pas encore d'une fonction active."
+          }
+        },
+        {
+          "title": "Plonger dans le terrier : Perspective de l'informatique",
+          "subtitle": "12 septembre 2023",
+          "pinned": false,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/perspective-of-computer-science",
+          "date": "Sep 2023",
+          "warning": "Avertissement : Ces notes contiennent des opinions, des expériences personnelles et des points de vue extrêmes sur l'informatique dans le contexte d'un cours. Elles ne sont pas destinées à dénigrer ou offenser quiconque ; veuillez les prendre avec prudence. En appuyant sur \"Lire la suite\", vous êtes réputé comprendre.",
+          "buttons": {
+            "read_more": "Lire la suite",
+            "close": "Fermer"
+          },
+          "content": "Avez-vous déjà pensé que les bonnes notes ou le GPA ne sont pas tout dans le monde de l'éducation ? Cette note contient mes vues qui peuvent être très différentes, peut-être même que vous les contesterez. Je ne vous demande rien d'autre que de vous forcer à être d'accord avec mon opinion ou mes points de vue ; mon principe est de privilégier la compréhension et le développement personnel plutôt que de simplement courir après les bonnes notes ou le GPA. Mon parcours éducatif est un diplôme de lycée en sciences naturelles (sciences).\n\nCommençons par quelque chose d'intéressant. À la fin du semestre, mon professeur a déclaré avec insistance : \"Vous n'avez pas besoin d'être étudiant en informatique pour être programmeur ou développeur de logiciels.\" J'étais entièrement d'accord avec ses vues, tandis que la plupart des autres étudiants étaient choqués de l'entendre. Comment vous sentiriez-vous si, au milieu de la confusion et de l'épuisement de l'université, vous entendiez une déclaration comme celle-ci à la fin du semestre ? Regretteriez-vous d'avoir choisi la spécialité informatique ? Haha, personnellement je ne le regrette pas. Je suis d'accord avec le professeur, simplement parce que lorsque j'ai entendu son argument, je l'ai prouvé en gagnant environ soixante millions IDR ou environ 3 900 $ grâce à un seul projet logiciel qui utilise uniquement le langage de programmation JavaScript (le projet est toujours en cours et productif à ce jour). Pour information, mon campus n'enseigne pas du tout JavaScript.\n\nMaintenant peut-être comprenez-vous pourquoi je ne priorise pas vraiment le GPA. Pour moi, les notes ne sont que des gribouillis sur du papier et une simple reconnaissance qui entrave mes objectifs. Je ne crois pas que d'avoir des bonnes notes signifie avoir de grandes compétences. Je crois que les notes devraient être prouvées par des actions réelles et des responsabilités.\n\nPeut-être vous demandez-vous comment puis-je être productif grâce à l'informatique avec une réputation académique médiocre ? Avant de répondre, réfléchissez à vos objectifs en entrant à l'université. Est-il vrai que vous allez à l'université uniquement pour de l'argent et pour de l'argent ? Pensez-vous qu'un diplôme est le seul chemin vers un bon emploi ? Ma réponse est de choisir d'ignorer les notes et de se concentrer d'abord sur l'aspect financier. Cela ne signifie pas que je n'ai pas besoin de notes ; je les mets simplement de côté.\n\nJe n'ai pas pris cette décision à la légère. J'ai une raison spécifique pour laquelle je ne crois pas aux notes. Vous pourriez me traiter de fou ou de stupide, et je ne vais pas argumenter, compte tenu de mon GPA en dessous de la moyenne. Je m'inquiète parce que beaucoup ont des bonnes notes mais ont du mal dans le monde réel. Même si cela ne me regarde pas, je m'inquiète parce que les bonnes notes ne signifient pas toujours avoir des compétences pratiques.\n\nVoulez-vous entendre quelque chose de surprenant encore ? Mon professeur a dit que \"90% des étudiants qui participent aux séminaires sont tous foutus\" et pourtant ils réussissent encore. J'ai également reçu plusieurs offres pour aider mes camarades de classe qui avaient des notes plus élevées que moi à terminer leurs thèses ; seulement certaines offres que j'accepte parce qu'elles offrent de l'argent plutôt que des notes ou une simple reconnaissance.\n\nSi c'est le cas, de quel point de vue devrais-je croire aux notes ?",
+          "resolution": {
+            "title": "Résolution : Choses à considérer si vous souhaitez vous plonger dans l'informatique en autodidacte ou au niveau de licence en informatique.",
+            "content": "Ne vous inquiétez pas, même si vous ne sortez pas d'une école professionnelle ou d'une spécialité en sciences naturelles (sciences). Je suis sûr que vous pouvez devenir un professionnel dans le domaine de l'informatique rien qu'en utilisant Internet (en étudiant par vous-même ou sans assister à des cours). J'étais aussi complètement aveugle quand j'ai commencé dans le monde de l'informatique, et une de mes peurs était les mathématiques, même le JavaScript n'échappe pas à cette règle.\n\nNe pensez pas que l'université est le seul moyen d'obtenir un emploi. Dehors, il y a beaucoup de gens qui n'ont pas de diplômes académiques mais qui sont capables de fournir une bonne éducation à leurs enfants. Que pensez-vous qu'ils utilisent pour financer l'éducation de leurs enfants ? des feuilles ? Étudiez pour vous améliorer et construire une réputation. Avec un diplôme, votre poste de travail peut monter et vous pouvez gagner un salaire plus élevé. Cependant, rappelez-vous que vous devez aussi être responsable du nom et du titre que vous obtenez.\n\nVous pouvez vraiment devenir un expert avec une approche d'apprentissage autonome. Si vous choisissez cette voie, l'université sera une nécessité (supplémentaire), tandis que si vous choisissez une autre voie, l'université peut devenir plus axée sur la nécessité (principale). En plus de l'expertise, avoir un large réseau ou des connexions est aussi très important si vous prenez la voie autodidacte. En fait, à la fin, quand vous serez à l'université, vous serez encore tenu de développer considérablement vos capacités d'apprentissage autonome, mais avec des conseils et une orientation des professeurs.\n\nAprès avoir intégré l'université, vous suivrez un programme d'études prédéterminé. Vous rencontrerez une variété de sujets, dont certains peuvent être considérés comme optionnels de mon point de vue, selon vos aspirations. Les sujets que vous rencontrerez couvrent divers domaines, allant des algorithmes de programmation, de l'ingénierie logicielle, du calcul, de l'intelligence artificielle, du design, aux tests logiciels.\n\nPourquoi est-ce optionnel ? À mon avis, essayer de maîtriser tous les sujets peut être trop, mais il n'y a pas de mal à pouvoir le faire. Mon conseil est, au lieu de vous efforcer d'obtenir les meilleures notes dans tous les sujets qui finissent par être oubliés (parce qu'ils sont inutiles dans le monde du travail), il est préférable pour vous de vous concentrer sur l'atteinte de vos objectifs. Cherchez des notes suffisantes pour les sujets non pertinents et maximisez les leçons qui sont pertinentes pour vos objectifs de carrière futurs.\n\nNotez que chaque professeur a également son propre domaine d'expertise. Je suis sûr que lorsque vous irez à l'université, vous ne verrez pas des professeurs de mathématiques implémenter et expliquer directement la relation entre les mathématiques et l'informatique (programmes). De plus, il est rare que les professeurs qui enseignent la programmation appliquent les connaissances mathématiques des professeurs précédents directement dans le programme qu'ils vous enseignent. Tout cela est de votre responsabilité dans le développement personnel, et revient à atteindre vos objectifs. Votre travail futur nécessitera-t-il une compréhension des mathématiques complexes ? Si non, vous n'avez pas besoin de vous surcharger pour maximiser votre compréhension des mathématiques.\n\nPourquoi devriez-vous vous efforcer de maîtriser tous les sujets ? Voulez-vous être un avatar ? Je considère cela comme une perte de temps. Rappelez-vous, un boxeur n'est pas obligé de savoir voler comme un pilote, et vice versa.\n\nDonc, ce que je veux dire, ce n'est pas de penser que l'université et certains sujets ne sont pas importants. Peut-être que vous le sentirez vous-même plus tard lorsque vous entrerez à l'université. Bien qu'il soit appelé \"Majeure\" je ne pense pas qu'il soit du tout focalisé ou spécifique, mais plutôt large et expansif. Là, beaucoup de sujets sont optionnels (chaque sujet peut mener à différentes professions) mais vous êtes censé obtenir de bonnes notes globalement. Cela peut être un obstacle si vous avez trouvé une passion ou un objectif particulier. Est-il possible de maîtriser toutes les professions ?\n\nCes notes vous aident à planifier des préparations appropriées à vos réalisations à l'avance, afin qu'il n'y ait pas de perte de temps et d'énergie. Oui, je comprends parfaitement que dans la science, rien n'est gaspillé si nous l'étudions sincèrement.\n\nFinalement, que ce soit les notes (GPA) ou l'université, tout a de la valeur et de la pertinence si cela correspond aux besoins et objectifs de chaque individu. Si vous en êtes capable, il n'y a pas de mal à aller à l'université et à continuer à prêter attention aux notes, mais si vous êtes d'accord avec mon opinion, essayez d'obtenir des notes adéquates dans les sujets qui ne sont pas pertinents pour vos objectifs (évitez de répéter). Concentrez-vous davantage sur le développement de vos compétences et l'atteinte de vos objectifs de carrière futurs, et essayez d'obtenir de bonnes notes dans les sujets pertinents pour votre profession.\n\nDans le pire des cas, si vous vivez quelque chose de similaire à moi et même obtenez votre diplôme en retard, ne soyez pas triste. Quand vous obtiendrez enfin votre diplôme, votre expérience de travail et vos heures de vol seront suffisantes pour trouver un bon emploi. Surtout si vous avez déjà pu gagner un revenu régulier pendant vos études grâce à l'informatique elle-même, de quoi devez-vous vous inquiéter ? Des notes académiques ? Haha.\n\nNe cherchez pas seulement des notes dans le but d'obtenir votre diplôme, mais cherchez des notes dont vous pouvez être responsable. Ne vous laissez pas travailler dans un domaine qui ne correspond pas à ce que vous avez appris pendant vos études après avoir obtenu votre diplôme ; c'est une perte d'argent, de temps et d'énergie."
+          }
+        },
+        {
+          "title": "Épanouissement des roses rouges : Une introduction",
+          "subtitle": "24 février 2023\nDernière mise à jour le 20 mai 2024",
+          "pinned": true,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/an-introduction",
+          "date": "Fév 2023",
+          "social_links": {
+            "github": "https://github.com/rvnrstnsyh",
+            "gitlab": "https://gitlab.com/rvnrstnsyh",
+            "docker": "https://hub.docker.com/u/rvnrstnsyh",
+            "linkedin": "https://linkedin.com/in/rvnrstnsyh"
+          },
+          "about": {
+            "me": {
+              "title": "À propos de moi ?",
+              "content": "J'écris des logiciels, JavaScript comme langage principal."
+            },
+            "site": {
+              "title": "À propos de ce site ?",
+              "content": "Le développement a commencé en février/mars 2023. C'est ma plateforme pour héberger des travaux écrits et les logiciels que je crée. Utilisant Next.js 14 que j'ai créé spécifiquement pour le côté client seulement, ce site est conçu pour être aussi simple que possible, inspiré par la page par défaut de NGINX. Actuellement, seules quelques pages de ce site communiquent avec le serveur, appelé 'Unknown BE' via un proxy.\n\nJe m'assure que ce site est sûr par conception pour une utilisation publique."
+            },
+            "darknet": {
+              "title": "Service caché (TOR)",
+              "content": "Ce site est également en ligne sur le darknet, vous pouvez y accéder avec JavaScript activé ",
+              "url": "http://unicorn465jakmpxhawaumyujt52wess5qhal6ng3dcm32uprpzy33qd.onion",
+              "label": "ici"
+            }
+          }
+        }
+      ]
+    },
+    "components": {
+      "pinned": "Épinglé",
+      "latest": "Dernier",
+      "oldest": "Plus ancien"
+    }
+  },
+  "BuyMeACoffee": {
+    "title": "Offrez-moi un café",
+    "subtitle": "Dernière mise à jour le 20 mai 2024",
+    "contents": {
+      "s1": "N'importe quoi sur tous ",
+      "s2": "réseaux compatibles EVM"
+    },
+    "components": {}
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "Home": {
+    "title": "Pengembang JavaScript",
+    "subtitle": "",
+    "contents": {
+      "s1": "Senang bertemu dengan Anda.\n\nUntuk informasi dan pertanyaan bisnis, silakan merujuk ke",
+      "s2": "dan jika Anda lebih suka",
+      "s3": "\n\nMenunggu kabar dari Anda."
+    }
+  },
+  "Write": {
+    "title": "Menulis",
+    "subtitle": "Kumpulan makalah dan perangkat lunak",
+    "contents": {
+      "s1": "",
+      "papers": [
+        {
+          "title": "Seni Bersembunyi di Ruang Kecil: Tinyseed",
+          "subtitle": "14 Desember 2023",
+          "pinned": false,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/tinyseed",
+          "date": "Des 2023",
+          "official_tinyseed_url": {
+            "label": "tinyseed.io",
+            "link": "https://tinyseed.io"
+          },
+          "warning": "Tidak ada data yang meninggalkan situs ini. Semuanya ada di mesin Anda, semua data yang mengantri di dalamnya akan segera dihapus setelah diproses.",
+          "buttons": {
+            "read_more": "Baca Lebih Lanjut",
+            "close": "Tutup",
+            "words": "kata",
+            "indexes": "indeks"
+          },
+          "pre_content": "Implementasi digital dari ",
+          "content": ", Tinyseed memungkinkan Anda untuk mencadangkan frasa benih atau Shamir's secret shares dari dompet Anda. Ini memungkinkan Anda untuk melindungi Bitcoin, Ethereum, dan NFT dari kehilangan.",
+          "sub_content": "Anda dapat mencetak (Ctrl+P atau ⌘ Command+P) halaman ini dan menyimpannya dengan aman.",
+          "choose_proposal": "Pilih salah satu proposal:",
+          "parts": {
+            "use": "gunakan",
+            "instead": "sebagai gantinya"
+          }
+        },
+        {
+          "title": "Mencari Kebebasan di Luar Lubang Kelinci: Tesis I",
+          "subtitle": "15 September 2023\nTerakhir diperbarui pada 30 April 2024",
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/thesis-i",
+          "date": "Sep 2023",
+          "warning": "Dalam tahap pengembangan",
+          "incomplete": "Tidak Lengkap",
+          "incomplete_content": "Untuk membuka seluruh makalah, tandatangani kata-kata di bawah ini:",
+          "signature": "Tanda Tangan",
+          "verify": "Verifikasi",
+          "notification": {
+            "title": "Maaf :(",
+            "content": "Halaman ini belum memiliki fungsi yang berjalan."
+          }
+        },
+        {
+          "title": "Menyelam ke Lubang Kelinci: Perspektif Ilmu Komputer",
+          "subtitle": "12 September 2023",
+          "pinned": false,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/perspective-of-computer-science",
+          "date": "Sep 2023",
+          "warning": "Peringatan: Catatan ini berisi opini, pengalaman pribadi, dan sudut pandang ekstrem tentang ilmu komputer dalam konteks kuliah. Tidak dimaksudkan untuk merendahkan atau menyinggung pihak manapun; mohon jangan mencerna sepenuhnya tanpa pertimbangan lebih lanjut. Dengan menekan \"Baca lebih lanjut\" Anda dianggap memahami.",
+          "buttons": {
+            "read_more": "Baca Lebih Lanjut",
+            "close": "Tutup"
+          },
+          "content": "Pernahkah Anda merasa bahwa nilai tinggi atau IPK bukan segalanya di dunia pendidikan? Catatan ini berisi pandangan saya yang mungkin sangat berbeda, mungkin bahkan Anda akan memperdebatkannya. Saya tidak meminta apa-apa selain memaksa Anda untuk setuju dengan pendapat atau pandangan saya; prinsip saya adalah mengutamakan pemahaman dan pengembangan diri daripada sekadar mengejar nilai tinggi atau IPK. Latar belakang pendidikan saya adalah lulusan SMA jurusan ilmu alam (sains).\n\nMari kita mulai dengan sesuatu yang menarik. Di akhir semester, profesor saya dengan tegas menyatakan, \"Anda tidak perlu menjadi mahasiswa Informatika untuk menjadi seorang programmer atau pengembang perangkat lunak.\" Saya sepenuhnya setuju dengan pandangannya, sementara sebagian besar mahasiswa lain terkejut mendengarnya. Bagaimana perasaan Anda jika, di tengah kebingungan dan kelelahan kuliah, Anda mendengar pernyataan seperti itu di akhir semester? Apakah Anda akan menyesal memilih jurusan Informatika? Haha, saya pribadi tidak menyesal. Saya setuju dengan dosen tersebut, hanya karena ketika saya mendengar argumennya, saya telah membuktikannya dengan menghasilkan sekitar enam puluh juta IDR atau sekitar $3,900 dari hanya satu proyek perangkat lunak yang hanya menggunakan bahasa pemrograman JavaScript (proyek ini masih berjalan dan produktif hingga hari ini). Sebagai informasi tambahan, kampus saya sama sekali tidak mengajarkan JavaScript.\n\nSekarang mungkin Anda mengerti mengapa saya tidak terlalu mengutamakan IPK. Bagi saya, nilai hanyalah coretan di atas kertas dan pengakuan semata yang menghalangi tujuan saya. Saya tidak percaya bahwa memiliki nilai tinggi berarti memiliki keterampilan yang hebat. Saya percaya bahwa nilai harus dibuktikan melalui tindakan nyata dan tanggung jawab.\n\nMungkin Anda bertanya-tanya bagaimana saya bisa produktif melalui Ilmu Komputer dengan reputasi akademis yang kurang baik? Sebelum saya menjawab, pertimbangkan tujuan Anda saat masuk universitas. Apakah benar Anda hanya pergi ke universitas untuk uang dan untuk uang? Apakah Anda berpikir bahwa gelar adalah satu-satunya jalan menuju pekerjaan yang baik? Jawaban saya adalah memilih untuk mengabaikan nilai dan fokus pada aspek keuangan terlebih dahulu. Itu tidak berarti saya tidak membutuhkan nilai; saya hanya menyingkirkannya.\n\nSaya tidak membuat keputusan ini sembarangan. Saya memiliki alasan khusus mengapa saya tidak percaya pada nilai. Anda mungkin menganggap saya gila atau bodoh, dan saya tidak akan berdebat, mengingat IPK saya di bawah rata-rata. Saya khawatir karena banyak yang memiliki nilai tinggi tetapi kesulitan di dunia nyata. Meskipun ini sebenarnya bukan urusan saya, saya merasa khawatir karena nilai tinggi tidak selalu berarti memiliki keterampilan praktis.\n\nIngin mendengar sesuatu yang mengejutkan lagi? Profesor saya mengatakan bahwa \"90% siswa yang mengikuti seminar semuanya berantakan\" namun mereka masih lulus. Saya juga menerima beberapa tawaran untuk membantu teman sekelas saya yang memiliki nilai lebih tinggi dari saya dalam menyelesaikan skripsi mereka; hanya beberapa tawaran yang saya terima karena mereka menawarkan uang daripada nilai atau pengakuan semata.\n\nJika demikian, dari sudut pandang mana saya harus percaya pada nilai?\n",
+          "resolution": {
+            "title": "Resolusi: Hal-hal yang perlu dipertimbangkan jika Anda ingin mendalami Ilmu Komputer secara otodidak atau di tingkat sarjana di Informatika.",
+            "content": "Jangan khawatir, meskipun Anda tidak lulus dari sekolah kejuruan atau jurusan ilmu alam (sains). Saya yakin Anda bisa menjadi profesional di bidang ilmu komputer hanya dengan menggunakan internet (belajar sendiri atau tanpa mengikuti kuliah). Saya juga benar-benar buta ketika pertama kali masuk ke dunia ilmu komputer, dan salah satu ketakutan saya adalah matematika, bahkan JavaScript tidak terkecuali.\n\nJangan menganggap bahwa kuliah adalah satu-satunya cara untuk mendapatkan pekerjaan. Di luar sana, banyak orang yang tidak memiliki gelar akademis tetapi mampu memberikan pendidikan yang baik kepada anak-anak mereka. Apa yang Anda pikir mereka gunakan untuk membiayai pendidikan anak-anak mereka? daun? Belajar untuk memperbaiki diri dan membangun reputasi. Dengan gelar, posisi pekerjaan Anda bisa naik dan Anda bisa mendapatkan gaji yang lebih tinggi. Namun, ingatlah bahwa Anda juga harus bertanggung jawab atas nama dan gelar yang Anda peroleh.\n\nAnda benar-benar bisa menjadi ahli dengan pendekatan pembelajaran mandiri (otodidak). Jika Anda memilih jalur ini, kuliah akan menjadi kebutuhan (tambahan), sementara jika Anda memilih rute lain, kuliah mungkin menjadi lebih fokus pada kebutuhan (utama). Selain keahlian, memiliki jaringan atau koneksi yang luas juga sangat penting jika Anda mengambil jalur otodidak. Bahkan, pada akhirnya, ketika Anda berada di universitas, Anda masih akan diminta untuk mengembangkan kemampuan belajar mandiri secara signifikan, tetapi dengan bimbingan dan arahan dari dosen.\n\nSetelah Anda masuk universitas, Anda akan mengikuti kurikulum yang telah ditentukan. Anda akan menghadapi berbagai mata pelajaran, beberapa di antaranya mungkin dianggap opsional menurut pandangan saya, tergantung pada aspirasi Anda. Mata pelajaran yang akan Anda hadapi meliputi berbagai bidang, mulai dari Algoritma Pemrograman, Rekayasa Perangkat Lunak, Kalkulus, Kecerdasan Buatan, Desain, hingga Pengujian Perangkat Lunak.\n\nMengapa opsional? Menurut pandangan saya, mencoba menguasai semua mata pelajaran mungkin terlalu banyak, tetapi tidak ada salahnya untuk bisa melakukannya. Saran saya adalah, daripada berusaha keras untuk mencapai nilai tertinggi di semua mata pelajaran yang akhirnya terlupakan (karena tidak berguna di dunia kerja), lebih baik Anda fokus untuk mencapai tujuan Anda. Cari nilai yang cukup untuk mata pelajaran yang tidak relevan dan maksimalkan pelajaran yang relevan dengan tujuan karier masa depan Anda.\n\nPerlu diingat bahwa setiap dosen juga memiliki bidang keahliannya masing-masing. Saya yakin ketika Anda masuk kuliah, Anda tidak akan melihat dosen matematika langsung menerapkan dan menjelaskan hubungan antara matematika dan ilmu komputer (program). Selain itu, jarang ada dosen yang mengajar pemrograman yang menerapkan pengetahuan matematika dari dosen sebelumnya langsung ke dalam program yang mereka ajarkan kepada Anda. Semua ini adalah tanggung jawab Anda dalam pengembangan diri, dan kembali ke pencapaian tujuan Anda. Apakah pekerjaan Anda di masa depan membutuhkan pemahaman tentang matematika yang kompleks? Jika tidak, Anda tidak perlu berlebihan dalam memaksimalkan pemahaman Anda tentang matematika.\n\nMengapa Anda harus berusaha keras untuk menguasai semua mata pelajaran? Apakah Anda ingin menjadi avatar? Saya menganggap ini pemborosan waktu. Ingat, seorang petinju tidak diharuskan bisa terbang seperti pilot, dan sebaliknya.\n\nJadi, yang saya maksud adalah jangan berpikir bahwa kuliah dan mata pelajaran tertentu tidak penting. Mungkin Anda akan merasakannya sendiri nanti ketika Anda masuk kuliah. Meskipun disebut \"Jurusan\" saya tidak menganggapnya fokus atau spesifik, melainkan luas dan ekspansif. Di sana, banyak mata pelajaran yang opsional (setiap mata pelajaran dapat mengarah ke profesi yang berbeda) tetapi Anda diharapkan mendapatkan nilai yang baik secara keseluruhan. Ini mungkin menjadi hambatan jika Anda telah menemukan passion atau tujuan tertentu. Apakah mungkin untuk menguasai semua profesi?\n\nCatatan ini membantu Anda merencanakan persiapan yang sesuai dengan pencapaian Anda sebelumnya, sehingga tidak ada pemborosan waktu dan energi. Ya, saya sepenuhnya mengerti bahwa dalam ilmu pengetahuan, tidak ada yang sia-sia jika kita mempelajarinya dengan tulus.\n\nPada akhirnya, apakah itu nilai (IPK) atau kuliah, semuanya memiliki nilai dan relevansi jika sesuai dengan kebutuhan dan tujuan masing-masing individu. Jika Anda mampu, tidak ada salahnya pergi ke kuliah dan tetap memperhatikan nilai, tetapi jika Anda setuju dengan pendapat saya, cobalah untuk mendapatkan nilai yang cukup dalam mata pelajaran yang tidak relevan dengan tujuan Anda (hindari pengulangan). Fokus lebih pada mengembangkan keterampilan Anda dan mencapai tujuan karier masa depan Anda, dan cobalah untuk mencapai nilai tinggi dalam mata pelajaran yang relevan dengan profesi Anda.\n\nDalam situasi terburuk, jika Anda mengalami sesuatu yang serupa dengan saya dan bahkan lulus terlambat, jangan sedih. Ketika Anda akhirnya lulus, pengalaman kerja dan jam terbang Anda akan cukup untuk mendapatkan pekerjaan yang baik. Terutama jika Anda telah mampu menghasilkan pendapatan yang stabil selama masa studi dari ilmu komputer itu sendiri, apa yang perlu Anda khawatirkan? Nilai akademis? Haha.\n\nJangan hanya mencari nilai dengan tujuan lulus, tetapi cari nilai yang bisa Anda pertanggungjawabkan. Jangan biarkan diri Anda bekerja di bidang yang tidak sesuai dengan apa yang Anda pelajari selama studi setelah lulus; itu adalah pemborosan uang, waktu, dan energi."
+          }
+        },
+        {
+          "title": "Mekar Mawar Merah: Sebuah Pengantar",
+          "subtitle": "24 Februari 2023\nTerakhir diperbarui pada 20 Mei 2024",
+          "pinned": true,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/an-introduction",
+          "date": "Feb 2023",
+          "social_links": {
+            "github": "https://github.com/rvnrstnsyh",
+            "gitlab": "https://gitlab.com/rvnrstnsyh",
+            "docker": "https://hub.docker.com/u/rvnrstnsyh",
+            "linkedin": "https://linkedin.com/in/rvnrstnsyh"
+          },
+          "about": {
+            "me": {
+              "title": "Tentang Saya?",
+              "content": "Saya menulis perangkat lunak, JavaScript sebagai bahasa utama."
+            },
+            "site": {
+              "title": "Tentang Situs Ini?",
+              "content": "Pengembangan dimulai pada Februari/Maret 2023. Ini adalah platform saya untuk menampung karya tulis dan perangkat lunak yang saya buat. Menggunakan Next.js 14 yang saya buat khusus untuk sisi klien saja, situs ini dirancang sesederhana mungkin, terinspirasi oleh halaman default NGINX. Saat ini hanya beberapa halaman di situs ini yang berkomunikasi dengan server, disebut sebagai 'Unknown BE' melalui proxy.\n\nSaya memastikan bahwa situs ini aman secara desain untuk penggunaan publik."
+            },
+            "darknet": {
+              "title": "Layanan Tersembunyi (TOR)",
+              "content": "Situs ini juga online di darknet, Anda dapat mengaksesnya dengan JavaScript diaktifkan ",
+              "url": "http://unicorn465jakmpxhawaumyujt52wess5qhal6ng3dcm32uprpzy33qd.onion",
+              "label": "di sini"
+            }
+          }
+        }
+      ]
+    },
+    "components": {
+      "pinned": "Disematkan",
+      "latest": "Terbaru",
+      "oldest": "Tertua"
+    }
+  },
+  "BuyMeACoffee": {
+    "title": "Belikan Saya Kopi",
+    "subtitle": "Terakhir diperbarui pada 20 Mei 2024",
+    "contents": {
+      "s1": "Apa saja di semua ",
+      "s2": "jaringan yang kompatibel dengan EVM"
+    },
+    "components": {}
+  }
+}

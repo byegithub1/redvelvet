@@ -1,0 +1,137 @@
+{
+  "Home": {
+    "title": "JavaScript-Entwickler",
+    "subtitle": "",
+    "contents": {
+      "s1": "Freut mich, dich zu sehen.\n\nFür Informationen und Geschäftsanfragen, bitte siehe",
+      "s2": "und falls du bevorzugst",
+      "s3": "\n\nIch freue mich darauf, von dir zu hören."
+    }
+  },
+  "Write": {
+    "title": "Schreiben",
+    "subtitle": "Sammlung von Papieren und Software",
+    "contents": {
+      "s1": "",
+      "papers": [
+        {
+          "title": "Die Kunst des Versteckspiels in kleinen Räumen: Tinyseed",
+          "subtitle": "14. Dezember 2023",
+          "pinned": false,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/tinyseed",
+          "date": "Dez 2023",
+          "official_tinyseed_url": {
+            "label": "tinyseed.io",
+            "link": "https://tinyseed.io"
+          },
+          "warning": "Es werden absolut keine Daten von dieser Seite weitergeleitet. Alles bleibt auf deinem Gerät, alle wartenden Daten werden sofort nach der Verarbeitung gelöscht.",
+          "buttons": {
+            "read_more": "Mehr lesen",
+            "close": "Schließen",
+            "words": "Wörter",
+            "indexes": "Indizes"
+          },
+          "pre_content": "Digitale Umsetzung von ",
+          "content": ", Tinyseed ermöglicht es dir, die Seed-Phrase oder Shamirs geheime Anteile deines Wallets zu sichern. Es erlaubt dir, Bitcoin, Ethereum und NFT vor Verlust zu schützen.",
+          "sub_content": "Du kannst diese Seite drucken (Strg+P oder ⌘ Command+P) und sicher aufbewahren.",
+          "choose_proposal": "Wähle einen der Vorschläge:",
+          "parts": {
+            "use": "verwenden",
+            "instead": "anstatt"
+          }
+        },
+        {
+          "title": "Freiheit jenseits des Kaninchenlochs suchen: Thesis I",
+          "subtitle": "15. September 2023\nZuletzt aktualisiert am 30. April 2024",
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/thesis-i",
+          "date": "Sep 2023",
+          "warning": "In der Entwicklungsphase",
+          "incomplete": "Unvollständig",
+          "incomplete_content": "Um das gesamte Papier freizuschalten, unterschreibe die unten stehenden Wörter:",
+          "signature": "Unterschrift",
+          "verify": "Verifizieren",
+          "notification": {
+            "title": "Entschuldigung :(",
+            "content": "Diese Seite hat noch keine laufende Funktion."
+          }
+        },
+        {
+          "title": "Eintauchen in das Kaninchenloch: Perspektive der Informatik",
+          "subtitle": "12. September 2023",
+          "pinned": false,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/perspective-of-computer-science",
+          "date": "Sep 2023",
+          "warning": "Warnung: Diese Notizen enthalten Meinungen, persönliche Erfahrungen und extreme Ansichten über die Informatik im Vorlesungskontext. Nicht dazu gedacht, irgendeine Partei zu erniedrigen oder zu beleidigen; bitte verdauen Sie es nicht vollständig ohne weitere Überlegung. Durch Drücken von \"Mehr lesen\" wird davon ausgegangen, dass Sie es verstanden haben.",
+          "buttons": {
+            "read_more": "Mehr lesen",
+            "close": "Schließen"
+          },
+          "content": "Hast du jemals das Gefühl gehabt, dass hohe Noten oder ein GPA nicht alles in der Welt der Bildung sind? Diese Notiz enthält meine Ansichten, die sehr unterschiedlich sein können, vielleicht wirst du ihnen sogar widersprechen. Ich verlange nichts anderes, als dass du meiner Meinung oder meinen Ansichten zustimmst; mein Prinzip ist es, Selbstverständnis und Entwicklung zu priorisieren, anstatt nur nach hohen Noten oder GPA zu streben. Mein Bildungshintergrund ist ein Abiturient mit dem Schwerpunkt Naturwissenschaften (Science).\n\nLass uns mit etwas Interessantem beginnen. Am Ende des Semesters sagte mein Professor nachdrücklich: \"Du musst kein Informatikstudent sein, um ein Programmierer oder Softwareentwickler zu werden.\" Ich stimmte seiner Ansicht vollkommen zu, während die meisten anderen Studenten schockiert waren, das zu hören. Wie würdest du dich fühlen, wenn du inmitten der Verwirrung und Erschöpfung des Studiums am Ende des Semesters eine solche Aussage hörst? Wirst du es bereuen, das Fach Informatik gewählt zu haben? Haha, ich persönlich bereue es nicht. Ich stimme dem Dozenten zu, nur weil ich, als ich sein Argument hörte, bewiesen habe, dass ich etwa sechzig Millionen IDR oder etwa $3.900 aus nur einem Softwareprojekt gemacht habe, das nur die Programmiersprache JavaScript verwendet (das Projekt läuft und ist bis heute produktiv). Zur weiteren Information: Meine Hochschule lehrt überhaupt kein JavaScript.\n\nJetzt verstehst du vielleicht, warum ich den GPA nicht wirklich priorisiere. Für mich sind Noten nur Kritzeleien auf Papier und bloße Anerkennungen, die meinen Zielen im Weg stehen. Ich glaube nicht, dass hohe Noten großartige Fähigkeiten bedeuten. Ich glaube, dass Noten durch echte Taten und Verantwortlichkeiten bewiesen werden sollten.\n\nVielleicht fragst du dich, wie ich mit einem weniger guten akademischen Ruf durch die Informatik produktiv sein kann? Bevor ich antworte, betrachte deine Ziele beim Eintritt in die Universität. Ist es wahr, dass du nur wegen des Geldes und für das Geld zur Universität gehst? Denkst du, dass ein Abschluss der einzige Weg zu einem guten Job ist? Meine Antwort ist, die Noten zu ignorieren und sich zuerst auf den finanziellen Aspekt zu konzentrieren. Das bedeutet nicht, dass ich keine Noten brauche; ich lege sie nur beiseite.\n\nIch habe diese Entscheidung nicht leichtfertig getroffen. Ich habe einen speziellen Grund, warum ich nicht an Noten glaube. Du könntest mich verrückt oder dumm nennen, und ich werde nicht streiten, da mein GPA unterdurchschnittlich ist. Ich mache mir Sorgen, weil viele hohe Noten haben, aber in der realen Welt kämpfen. Obwohl das eigentlich nicht meine Angelegenheit ist, mache ich mir Sorgen, weil hohe Noten nicht immer praktische Fähigkeiten bedeuten.\n\nMöchtest du noch etwas Überraschendes hören? Mein Professor sagte, dass \"90% der Studenten, die Seminare besuchen, alle durcheinander sind\" und dennoch bestehen sie. Ich erhielt auch mehrere Angebote, meinen Kommilitonen mit höheren Noten als mir bei der Fertigstellung ihrer Abschlussarbeiten zu helfen; nur einige Angebote nehme ich an, weil sie Geld anstatt Noten oder bloße Anerkennung bieten.\n\nWenn das so ist, aus welcher Perspektive soll ich an Noten glauben?",
+          "resolution": {
+            "title": "Lösung: Dinge, die zu beachten sind, wenn du dich selbständig oder auf Bachelor-Niveau in Informatik vertiefen möchtest.",
+            "content": "Mach dir keine Sorgen, selbst wenn du nicht von einer beruflichen Schule oder einem naturwissenschaftlichen (Science) Zweig absolvierst. Ich bin sicher, du kannst ein Profi im Bereich Informatik werden, indem du nur das Internet nutzt (selbststudiert oder ohne Vorlesungen zu besuchen). Ich war auch völlig blind, als ich zum ersten Mal in die Welt der Informatik eintauchte, und eine meiner Ängste war Mathematik, selbst JavaScript ist da keine Ausnahme.\n\nNimm nicht an, dass das College der einzige Weg ist, um einen Job zu bekommen. Da draußen gibt es viele Menschen, die keine akademischen Abschlüsse haben, aber in der Lage sind, ihren Kindern eine gute Ausbildung zu ermöglichen. Was denkst du, verwenden sie, um die Ausbildung ihrer Kinder zu finanzieren? Blätter? Studiere, um dich selbst zu verbessern und einen Ruf aufzubauen. Mit einem Abschluss kann deine Position im Job steigen und du kannst ein höheres Gehalt verdienen. Denke jedoch daran, dass du auch für den Namen und Titel, den du erhältst, verantwortlich sein musst.\n\nDu kannst wirklich ein Experte werden mit einem selbständigen (autodidaktischen) Lernansatz. Wenn du diesen Weg wählst, wird das College eine Notwendigkeit (zusätzlich), während wenn du eine andere Route wählst, das College möglicherweise mehr auf Notwendigkeit (hauptsächlich) fokussiert wird. Abgesehen von der Expertise ist es auch sehr wichtig, ein weites Netzwerk oder Verbindungen zu haben, wenn du den autodidaktischen Weg wählst. Tatsächlich wirst du am Ende, wenn du an der Universität bist, immer noch erheblich gefordert, deine unabhängigen Lernfähigkeiten zu entwickeln, aber mit Anleitung und Richtung von Dozenten.\n\nNachdem du die Universität betrittst, wirst du einem vorgegebenen Lehrplan folgen. Du wirst auf eine Vielzahl von Fächern stoßen, von denen einige meiner Meinung nach optional sein können, abhängig von deinen Bestrebungen. Die Fächer, die du begegnen wirst, decken verschiedene Bereiche ab, von Programmieralgorithmen, Software-Engineering, Kalkül, Künstlicher Intelligenz, Design bis hin zu Softwaretests.\n\nWarum ist es optional? Meiner Ansicht nach könnte es zu viel sein, zu versuchen, alle Fächer zu meistern, aber es schadet nicht, es zu können. Mein Rat ist, anstatt zu versuchen, in allen Fächern die höchste Note zu erreichen, die am Ende vergessen werden (weil sie in der Arbeitswelt nutzlos sind), ist es besser, sich darauf zu konzentrieren, deine Ziele zu erreichen. Suche nach ausreichenden Noten für irrelevante Fächer und maximiere die Lektionen, die relevant für deine zukünftigen Karriereziele sind.\n\nBeachte, dass jeder Dozent auch sein eigenes Fachgebiet hat. Ich bin sicher, dass du, wenn du an die Universität gehst, nicht direkt Mathematikdozenten sehen wirst, die die Beziehung zwischen Mathematik und Informatik (Programme) umsetzen und erklären. Außerdem ist es selten, dass Dozenten, die Programmierung lehren, mathematische Kenntnisse von früheren Dozenten direkt in das Programm, das sie dir beibringen, anwenden. All dies ist deine Verantwortung in der Selbstentwicklung und geht zurück auf das Erreichen deiner Ziele. Wird deine zukünftige Arbeit ein Verständnis für komplexe Mathematik erfordern? Wenn nicht, brauchst du nicht übermäßig zu versuchen, dein Verständnis der Mathematik zu maximieren.\n\nWarum solltest du hart daran arbeiten, alle Fächer zu meistern? Willst du ein Avatar sein? Ich halte das für eine Zeitverschwendung. Denke daran, ein Boxer muss nicht fliegen können wie ein Pilot und umgekehrt.\n\nWas ich also meine, ist nicht zu denken, dass das College und bestimmte Fächer nicht wichtig sind. Vielleicht wirst du es später selbst spüren, wenn du das College betrittst. Obwohl es \"Major\" genannt wird, denke ich, dass es überhaupt nicht fokussiert oder spezifisch ist, sondern eher breit und weitreichend. Dort sind viele Fächer optional (jedes Fach kann zu verschiedenen Berufen führen), aber du wirst erwartet, insgesamt gute Noten zu bekommen. Dies könnte ein Hindernis sein, wenn du eine bestimmte Leidenschaft oder ein bestimmtes Ziel gefunden hast. Ist es möglich, alle Berufe zu meistern?\n\nDiese Notizen helfen dir, Vorbereitungen zu planen, die deinen Errungenschaften im Voraus entsprechen, sodass keine Zeit und Energie verschwendet wird. Ja, ich verstehe vollkommen, dass in der Wissenschaft nichts verschwendet wird, wenn wir es aufrichtig studieren.\n\nLetztendlich haben sowohl Noten (GPA) als auch das College Wert und Relevanz, wenn sie den Bedürfnissen und Zielen jedes Einzelnen entsprechen. Wenn du in der Lage bist, gibt es keinen Schaden darin, zur Universität zu gehen und immer noch auf die Noten zu achten, aber wenn du meiner Meinung zustimmst, versuche, angemessene Noten in Fächern zu erhalten, die nicht relevant für deine Ziele sind (wiederhole sie nicht). Konzentriere dich mehr darauf, deine Fähigkeiten zu entwickeln und deine Karriereziele in der Zukunft zu erreichen, und versuche, hohe Noten in Fächern zu erzielen, die für deinen Beruf relevant sind.\n\nIm schlimmsten Fall, wenn du etwas Ähnliches wie ich erlebst und sogar spät abschließt, sei nicht traurig. Wenn du schließlich abschließt, werden deine Berufserfahrung und deine Flugstunden ausreichen, um einen guten Job zu finden. Besonders wenn du während deines Studiums bereits ein stetiges Einkommen aus der Informatik selbst erzielt hast, was musst du dich dann noch sorgen? Akademische Noten? Haha.\n\nSuche nicht nur nach Noten mit dem Ziel zu absolvieren, sondern suche nach Noten, die du verantworten kannst. Lasse dich nicht in einem Bereich arbeiten, der nicht mit dem übereinstimmt, was du während deines Studiums gelernt hast, nachdem du absolviert hast; das ist eine Verschwendung von Geld, Zeit und Energie."
+          }
+        },
+        {
+          "title": "Blühende rote Rosen: Eine Einführung",
+          "subtitle": "24. Februar 2023\nZuletzt aktualisiert am 20. Mai 2024",
+          "pinned": true,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/an-introduction",
+          "date": "Feb 2023",
+          "social_links": {
+            "github": "https://github.com/rvnrstnsyh",
+            "gitlab": "https://gitlab.com/rvnrstnsyh",
+            "docker": "https://hub.docker.com/u/rvnrstnsyh",
+            "linkedin": "https://linkedin.com/in/rvnrstnsyh"
+          },
+          "about": {
+            "me": {
+              "title": "Über mich?",
+              "content": "Ich schreibe Software, JavaScript als Hauptsprache."
+            },
+            "site": {
+              "title": "Über diese Seite?",
+              "content": "Die Entwicklung begann im Februar/März 2023. Dies ist meine Plattform, um schriftliche Arbeiten und die von mir erstellte Software unterzubringen. Unter Verwendung von Next.js 14, das ich speziell nur für die Client-Seite erstellt habe, ist diese Seite so einfach wie möglich gestaltet, inspiriert von der Standard-NGINX-Seite. Derzeit kommunizieren nur wenige Seiten auf dieser Seite mit dem Server, der als 'Unbekannter BE' durch einen Proxy bezeichnet wird.\n\nIch stelle sicher, dass diese Seite sicher im Design für die öffentliche Nutzung ist."
+            },
+            "darknet": {
+              "title": "Versteckter Dienst (TOR)",
+              "content": "Diese Seite ist auch im Darknet online, du kannst darauf zugreifen mit aktiviertem JavaScript ",
+              "url": "http://unicorn465jakmpxhawaumyujt52wess5qhal6ng3dcm32uprpzy33qd.onion",
+              "label": "hier"
+            }
+          }
+        }
+      ]
+    },
+    "components": {
+      "pinned": "Angepinnt",
+      "latest": "Neueste",
+      "oldest": "Älteste"
+    }
+  },
+  "BuyMeACoffee": {
+    "title": "Kauf mir einen Kaffee",
+    "subtitle": "Zuletzt aktualisiert am 20. Mai 2024",
+    "contents": {
+      "s1": "Alles auf allen ",
+      "s2": "EVM-kompatiblen Netzwerken"
+    },
+    "components": {}
+  }
+}
