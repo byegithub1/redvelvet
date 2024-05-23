@@ -6,6 +6,7 @@ import AntdProvider from '@/provider/antd/provider'
 import { Inter } from 'next/font/google'
 import { getMessages } from 'next-intl/server'
 import { NextIntlClientProvider } from 'next-intl'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -46,7 +47,10 @@ const LocaleLayout = async ({
       <body className={inter.className}>
         <ReduxProvider>
           <NextIntlClientProvider messages={messages}>
-            <AntdProvider>{children}</AntdProvider>
+            <AntdProvider>
+              {children}
+              <SpeedInsights />
+            </AntdProvider>
           </NextIntlClientProvider>
         </ReduxProvider>
       </body>
