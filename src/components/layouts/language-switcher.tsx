@@ -1,16 +1,17 @@
 'use client'
 
 import { useLocale } from 'next-intl'
-import { useRouter } from 'next/navigation'
 import { useTransition, ChangeEvent } from 'react'
+import { useRouter, usePathname } from 'next/navigation'
 
 const LanguageSwitcher = () => {
   const [isPending, startTransition] = useTransition()
   const router = useRouter()
+  const pathname = usePathname()
   const localeActive = useLocale()
 
   const handleChange = (event: ChangeEvent<HTMLSelectElement>) => {
-    startTransition(() => router.replace(`${event.target.value}`))
+    startTransition(() => router.replace(pathname.replace(localeActive, `${event.target.value}`)))
   }
 
   return (
