@@ -1,0 +1,43 @@
+image: node:latest
+
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: test
+            caches:
+              - node
+            script:
+              - echo "[skip-test]"
+        - step:
+            name: lint
+            script:
+              - npm i next@latest
+              - npx next lint
+  branches:
+    main:
+      - parallel:
+          - step:
+              name: test
+              caches:
+                - node
+              script:
+                - echo "[skip-test]"
+          - step:
+              name: lint
+              script:
+                - npm i next@latest
+                - npx next lint
+      # Sync before deploying; abort the deploy stage if out of sync.
+      - step:
+          name: sync-mirror
+          script:
+            - $PUSH_TO $GITHUB_FROM_THIS $BITBUCKET_BRANCH
+            - $PUSH_TO $GITLAB_FROM_THIS $BITBUCKET_BRANCH
+      - step:
+          name: deploy
+          deployment: production
+          caches:
+            - node
+          script:
+            - echo "[skip-deploy]"

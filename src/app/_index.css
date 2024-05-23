@@ -1,0 +1,812 @@
+/*
+ * This injects Tailwind's base styles and any base styles registered by
+ * plugins.
+ */
+@tailwind base;
+
+/*
+ * This injects Tailwind's component classes and any component classes
+ * registered by plugins.
+ */
+@tailwind components;
+
+/*
+ * This injects Tailwind's utility classes and any utility classes registered
+ * by plugins.
+ */
+@tailwind utilities;
+
+/*
+ * Use this directive to control where Tailwind injects the hover, focus,
+ * responsive, dark mode, and other variants of each class.
+ *
+ * If omitted, Tailwind will append these classes to the very end of
+ * your stylesheet by default.
+ */
+@tailwind variants;
+
+/**?
+ * ? ----- LIST OF CONTENTS -----
+ * !GLOBAL SECTION -----
+ * !CONTAINER SECTION -----
+ * !HEADER SECTION -----
+ * !NAVIGATION SECTION -----
+ * !LANGUAGE SWITCHER SECTION -----
+ * !FOOTER SECTION -----
+ * !HOME SECTION -----
+ * !WRITE SECTION -----
+ * !BUY ME A COFFEE SECTION -----
+ * !AN INTRODUCTION PAPER SECTION -----
+ * !PERSPECTIVE OF COMPUTER SCIENCE PAPER SECTION -----
+ * !THESIS I PAPER SECTION -----
+ * !TINYSEED PAPER SECTION -----
+ */
+
+/**!
+ * !GLOBAL SECTION -----
+ */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* CSS variables for reusablity across all files (including above imported) */
+:root {
+  --playfair-font-display: 'Playfair Display', serif;
+  --plus-jakarta-sans-font-display: 'Plus Jakarta Sans', sans-serif;
+  --primary-color: #7f2a3c;
+  --secondary-color: #c20000;
+  --tertiary-color: #121212;
+  --white-color: #ffffff;
+  --gray-color: #f1f1f1;
+  --creamson-color: #fff0de;
+  --dim-color: #f9f9f9;
+  --dim-red-color: #8b0000;
+  --dim-white-color: #ffffffb3;
+  --black-200: #020202;
+  --black-300: #333333;
+  --black-400: #1f1e31;
+  --black-500: #555555;
+  --gray-100: #888888;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: var(--tertiary-color);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  white-space: pre-line;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+::-moz-selection {
+  color: var(--dim-white-color);
+  background: var(--secondary-color);
+}
+::selection {
+  color: var(--dim-white-color);
+  background: var(--secondary-color);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body,
+html {
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -ms-overflow-style: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  user-select: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  background-color: var(--white-color);
+}
+*:focus {
+  outline: none !important;
+}
+body {
+  width: 525px;
+  margin: 0 auto;
+}
+a {
+  @apply font-semibold;
+  color: inherit;
+  color: var(--primary-color);
+  text-decoration: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:link,
+a:visited,
+a:active {
+  color: var(--secondary-color);
+}
+a:hover {
+  text-decoration: none;
+}
+.red {
+  color: var(--secondary-color);
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.default-input {
+  @apply flex
+   rounded-md
+   shadow-sm
+   ring-1
+   ring-inset
+   ring-gray-300
+   focus-within:ring-2
+   focus-within:ring-inset
+   focus-within:ring-secondary
+   w-full
+   mt-4;
+}
+.default-input span {
+  @apply paragraph
+   flex
+   select-none
+   items-center
+   pl-3;
+  @apply font-semibold !important;
+}
+.default-input input {
+  @apply paragraph
+   block
+   flex-1
+   border-0
+   bg-transparent
+   py-1.5
+   pl-1
+   placeholder:text-gray-400
+   focus:ring-0;
+}
+.default-textarea label {
+  @apply block
+   ss:text-sm
+   text-xs
+   font-medium
+   ss:leading-6
+   leading-3
+   text-tertiary
+   mt-4;
+}
+.default-textarea textarea {
+  @apply paragraph
+   block
+   w-full
+   rounded-md
+   border-0
+   py-1.5
+   text-tertiary
+   shadow-sm
+   ring-1
+   ring-inset
+   ring-gray-300
+   placeholder:text-gray-400
+   focus:ring-2
+   focus:ring-inset
+   focus:ring-secondary
+   sm:text-sm
+   sm:leading-6;
+}
+.default-textarea .description {
+  @apply flex;
+}
+.default-textarea .description p {
+  @apply mt-2;
+}
+.default-button {
+  @apply rounded-md
+   bg-secondary
+   mt-2
+   px-3
+   py-1
+   ss:text-sm
+   text-xs
+   font-semibold
+   text-white
+   shadow-sm
+   hover:bg-primary
+   focus-visible:outline
+   focus-visible:outline-2
+   focus-visible:outline-offset-2
+   focus-visible:outline-secondary;
+}
+.paragraph {
+  @apply font-normal
+   text-tertiary
+   ss:text-[13px]
+   ss:leading-[20px]
+   text-[10.5px]
+   leading-[13.5px];
+}
+.warning-paragraph {
+  @apply paragraph
+   text-justify
+   border
+   border-secondary
+   border-r-8
+   mt-4
+   mb-4
+   p-2;
+  @apply font-semibold !important;
+}
+.info-paragraph {
+  @apply paragraph
+   border-gray-100
+   text-justify
+   border
+   border-r-8
+   mt-4
+   mb-4
+   p-2;
+  @apply font-semibold !important;
+}
+.error-paragraph {
+  @apply paragraph
+   ss:mt-[12px]
+   mt-[15.5px]
+   ml-2;
+  @apply text-secondary !important;
+}
+.button-paragraph {
+  @apply paragraph
+   ss:mt-[12px]
+   mt-[15.5px]
+   ml-2;
+}
+.pre {
+  @apply font-normal
+   text-tertiary
+   ss:text-[11px]
+   ss:leading-[15px]
+   text-[8.5px]
+   leading-[11px];
+}
+.ant-btn-primary {
+  color: var(--primary-color);
+  border: 1px var(--gray-color) solid;
+}
+.ant-pagination-options {
+  display: none !important;
+}
+/**!
+ * !END GLOBAL SECTION -----
+ */
+
+/**!
+ * !CONTAINER SECTION -----
+ */
+section.container {
+  @apply relative
+  mt-12
+  mx-auto
+  p-3;
+}
+section.container .content-wrapper hr {
+  @apply mt-4;
+}
+section.container .content-wrapper {
+  @apply mt-64;
+}
+@media only screen and (max-width: 620px) {
+  body {
+    @apply max-w-full;
+  }
+  section.container {
+    @apply mt-[-70px];
+  }
+}
+/**!
+ * !END CONTAINER SECTION -----
+ */
+
+/**!
+ * !HEADER SECTION -----
+ */
+section.container .header-wrapper img {
+  @apply absolute
+  top-[-30px]
+  -right-5
+  mt-4
+  max-w-[317px];
+}
+section.container .header-wrapper h1 {
+  @apply tracking-tight
+  text-3xl
+  font-bold
+  mt-5;
+}
+section.container .header-wrapper h3 {
+  @apply tracking-tight
+  text-lg
+  leading-none
+  mt-1;
+}
+section.container .header-wrapper span {
+  @apply text-sm
+  text-gray-100;
+}
+section.container .header-wrapper h3 a {
+  color: var(--gray-100) !important;
+}
+section.container .header-wrapper h3 a:hover {
+  color: var(--secondary-color) !important;
+}
+
+@media only screen and (max-width: 620px) {
+  section.container .header-wrapper img {
+    @apply top-24
+    max-w-[200px]
+    mr-7
+    mb-[-50px];
+  }
+}
+/**!
+ * !END HEADER SECTION -----
+ */
+
+/**!
+ * !NAVIGATION SECTION -----
+ */
+section.container .navigation-wrapper {
+  background-color: var(--dim-color);
+  display: inline-flex;
+  border-radius: 7px;
+}
+section.container .navigation-wrapper .item {
+  height: 40px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+section.container .navigation-wrapper .item:first-child {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+section.container .navigation-wrapper .item:last-child {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+section.container .navigation-wrapper .item--active svg {
+  color: var(--secondary-color);
+}
+@media (min-width: 992px) {
+  section.container .navigation-wrapper .item {
+    height: 32px;
+    width: 40px;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  section.container .navigation-wrapper .item:hover {
+    background-color: var(--gray-color);
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  section.container .navigation-wrapper .item--active {
+    cursor: default;
+    pointer-events: none;
+  }
+}
+/**!
+ * !END NAVIGATION SECTION -----
+ */
+
+/**!
+ * !LANGUAGE SWITCHER SECTION -----
+ */
+section.container .language-switcher {
+  @apply cursor-pointer
+    h-full
+    rounded-md
+    border-0
+    bg-transparent
+    sm:mt-[10px]
+    md:mt-[6px]
+    mt-[12.5px]
+    ml-0
+    py-0
+    pl-2
+    pr-7
+    text-secondary
+    font-extralight
+    focus:ring-2
+    focus:ring-inset
+    focus:ring-primary
+    sm:text-sm
+    text-xs;
+}
+/**!
+ * !END LANGUAGE SWITCHER SECTION -----
+ */
+
+/**!
+ * !FOOTER SECTION -----
+ */
+section.container .footer-wrapper {
+  background: url('../assets/png/shredder.png') no-repeat;
+  min-height: 96px;
+}
+section.container .footer-wrapper hr {
+  @apply border-t
+  mt-4
+  max-w-[170px]
+  opacity-0;
+}
+section.container .footer-wrapper h2 {
+  @apply text-sm
+  text-gray-100
+  mt-4;
+}
+/**!
+ * !END FOOTER SECTION -----
+ */
+
+/**!
+ * !HOME SECTION -----
+ */
+section.container main.home p {
+  @apply paragraph
+  mt-4;
+}
+section.container main.home .regard {
+  @apply flex
+  justify-between
+  items-end;
+}
+section.container main.home em {
+  @apply paragraph
+  mr-auto
+  text-gray-100 !important;
+}
+section.container main.home hr {
+  @apply border-t
+  mt-4;
+}
+section.container main.home .key-button {
+  @apply paragraph mt-6 cursor-pointer text-secondary !important;
+}
+section.container main.home .key-button img {
+  @apply w-[27px] h-auto;
+}
+section.container main.home .public-keys h4 {
+  @apply text-sm
+  font-bold
+  mb-2
+  mt-2;
+}
+section.container main.home .public-keys pre {
+  @apply pre;
+}
+/**!
+ * !END HOME SECTION -----
+ */
+
+/**!
+ * !WRITE SECTION -----
+ */
+section.container .write {
+  @apply mt-4
+  mb-20;
+}
+section.container .write .button-wrapper {
+  @apply text-end
+  -mt-[55px];
+}
+section.container .write .button-wrapper .button-pinned {
+  @apply inline-block
+  rounded
+  text-tertiary
+  uppercase
+  mb-2
+  px-1.5
+  pb-[4px]
+  pt-[4px]
+  text-sm
+  font-extralight
+  leading-normal
+  transition
+  duration-150
+  ease-in-out
+  focus:outline-none
+  focus:ring-0
+  cursor-default;
+}
+section.container .write .button-wrapper .button-sort {
+  @apply inline-block
+  rounded
+  text-secondary
+  uppercase
+  px-1.5
+  pt-[4px]
+  text-sm
+  font-extralight
+  leading-normal
+  transition
+  duration-150
+  ease-in-out
+  focus:outline-none
+  focus:ring-0;
+}
+section.container .write a {
+  @apply text-sm;
+  display: block;
+  cursor: pointer;
+  padding: 0.75rem 0.45rem 0rem 2rem;
+  margin-left: -2rem;
+  transition: background-color 0.2s;
+  margin-bottom: 0.5rem;
+  padding-bottom: 11px;
+}
+section.container .write a .title {
+  flex-grow: 1;
+  line-height: 1.5;
+  letter-spacing: -0.025rem;
+}
+section.container .write a .date {
+  color: var(--gray-100) !important;
+  flex-shrink: 0;
+}
+@media (min-width: 600px) {
+  section.container .write a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.25rem;
+  }
+  section.container .write a .title {
+    line-height: 1.25;
+    margin-right: 1rem;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  section.container .write a:hover {
+    background-color: var(--gray-color);
+  }
+}
+/**!
+ * !END WRITE SECTION -----
+ */
+
+/**!
+ * !BUY ME A COFFEE SECTION -----
+ */
+section.container main.buy-me-a-coffee div {
+  @apply paragraph
+  mt-1;
+}
+section.container main.buy-me-a-coffee div .qrcode {
+  @apply flex
+  items-center
+  mt-1.5;
+}
+section.container main.buy-me-a-coffee div .qrcode .space {
+  @apply mr-2.5;
+}
+section.container main.buy-me-a-coffee div .qrcode b {
+  @apply ml-2;
+}
+/**!
+ * !END BUY ME A COFFEE SECTION -----
+ */
+
+/**!
+ * !AN INTRODUCTION PAPER SECTION -----
+ */
+section.container main.paper-an-introduction {
+  @apply flex
+  flex-col
+  md:flex-row
+  items-center
+  md:items-start;
+}
+section.container main.paper-an-introduction .bio-card {
+  @apply paragraph
+  text-justify
+  md:mr-4
+  w-full
+  md:w-[267px]
+  mt-5;
+}
+section.container main.paper-an-introduction .bio-card .avatar {
+  @apply rounded-lg;
+}
+section.container main.paper-an-introduction .bio-site {
+  @apply md:w-2/5
+  mt-0
+  md:mt-5;
+}
+section.container main.paper-an-introduction .bio-site h1 {
+  @apply text-lg
+  font-bold
+  mt-10
+  mb-2
+  md:mt-0;
+}
+section.container main.paper-an-introduction .bio-site p {
+  @apply paragraph
+  text-justify
+  mb-4;
+}
+/**!
+ * !END AN INTRODUCTION PAPER SECTION -----
+ */
+
+/**!
+ * !PERSPECTIVE OF COMPUTER SCIENCE PAPER SECTION -----
+ */
+section.container main.paper-perspective-of-computer-science .content-section {
+  @apply paragraph
+  text-justify
+  mt-4;
+}
+section.container main.paper-perspective-of-computer-science .content-section .readmore-button {
+  @apply paragraph
+  cursor-pointer
+  text-justify
+  mt-4;
+  @apply text-secondary !important;
+}
+section.container main.paper-perspective-of-computer-science .content-margin {
+  @apply paragraph
+  text-justify
+  mt-4;
+}
+/**!
+ * !END PERSPECTIVE OF COMPUTER SCIENCE PAPER SECTION -----
+ */
+
+/**!
+ * !THESIS I PAPER SECTION -----
+ */
+section.container main.paper-thesis {
+  @apply block;
+}
+section.container main.paper-thesis .content-section h1 {
+  @apply text-lg
+  font-bold
+  mt-4
+  md:mt-0;
+}
+section.container main.paper-thesis .content-section h2 {
+  @apply text-base
+  font-bold
+  mt-4;
+}
+section.container main.paper-thesis .content-section p {
+  @apply paragraph;
+}
+section.container main.paper-thesis .content-section pre {
+  @apply pre
+  bg-red-50;
+  @apply font-semibold !important;
+}
+section.container main.paper-thesis .content-section .content-margin {
+  @apply paragraph
+  text-justify
+  mt-4
+  mb-4;
+}
+section.container main.paper-thesis .content-section .disturbed-part-button {
+  @apply paragraph
+  cursor-pointer
+  text-justify
+  mt-4;
+  @apply text-secondary !important;
+}
+/**!
+ * !THESIS I PAPER SECTION -----
+ */
+
+/**!
+ * !TINYSEED PAPER SECTION -----
+ */
+section.container main.paper-tinyseed .content-section {
+  @apply paragraph
+  text-justify
+  mt-4;
+}
+section.container main.paper-tinyseed .content-section .readmore-button {
+  @apply paragraph
+  cursor-pointer
+  text-justify
+  mt-4;
+  @apply text-secondary !important;
+}
+section.container main.paper-tinyseed .content-margin {
+  @apply paragraph
+  text-justify
+  mt-4;
+}
+section.container main.paper-tinyseed .seed-rows {
+  @apply flex
+  mb-2;
+}
+section.container main.paper-tinyseed .seed-selector {
+  @apply mt-4;
+}
+section.container main.paper-tinyseed .seed-selector button {
+  @apply mr-2.5;
+}
+section.container main.paper-tinyseed .seed-selector h1 {
+  @apply text-lg
+  font-bold
+  mt-4
+  md:mt-0;
+}
+section.container main.paper-tinyseed .seed-selector p {
+  @apply paragraph;
+}
+section.container main.paper-tinyseed .seed-selector .indexes-mode {
+  @apply red
+  font-semibold
+  cursor-pointer;
+}
+section.container main.paper-tinyseed .wrapper-seed-rows {
+  @apply mt-4;
+}
+section.container main.paper-tinyseed .wrapper-seed-rows .wrapper-input {
+  @apply flex
+  mb-2;
+}
+section.container main.paper-tinyseed .wrapper-table {
+  @apply overflow-x-auto
+  m-4;
+}
+section.container main.paper-tinyseed .wrapper-table table {
+  @apply w-full
+  table-auto;
+}
+section.container main.paper-tinyseed .wrapper-table table th {
+  @apply paragraph
+  text-center;
+}
+section.container main.paper-tinyseed .wrapper-table table .td-words {
+  @apply paragraph;
+  @apply font-semibold !important;
+}
+section.container main.paper-tinyseed .wrapper-table table .td-words p {
+  @apply red
+  font-semibold;
+}
+section.container main.paper-tinyseed .wrapper-table table .td-x p {
+  @apply paragraph
+  text-center;
+  @apply font-semibold !important;
+}
+section.container main.paper-tinyseed .wrapper-table table .td-strip p {
+  @apply paragraph
+  text-center;
+}
+/**!
+ * !END TINYSEED PAPER SECTION -----
+ */

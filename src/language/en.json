@@ -1,0 +1,137 @@
+{
+  "Home": {
+    "title": "JavaScript Developer",
+    "subtitle": "",
+    "contents": {
+      "s1": "Glad to see you.\n\nFor information and business inquiries, please refer to",
+      "s2": "and if you prefer",
+      "s3": "\n\nLooking forward to hearing from you."
+    }
+  },
+  "Write": {
+    "title": "Write",
+    "subtitle": "Collection of papers and software",
+    "contents": {
+      "s1": "",
+      "papers": [
+        {
+          "title": "Art of Hide and Seek in Small Spaces: Tinyseed",
+          "subtitle": "December 14, 2023",
+          "pinned": false,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/tinyseed",
+          "date": "Dec 2023",
+          "official_tinyseed_url": {
+            "label": "tinyseed.io",
+            "link": "https://tinyseed.io"
+          },
+          "warning": "There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+          "buttons": {
+            "read_more": "Read More",
+            "close": "Close",
+            "words": "words",
+            "indexes": "indexes"
+          },
+          "pre_content": "Digital implementation of ",
+          "content": ", Tinyseed enables you to back up the seed phrase or Shamir's secret shares of your wallet. It allows you to protect Bitcoin, Ethereum and NFT from loss.",
+          "sub_content": "You can print (Ctrl+P or ⌘ Command+P) this page and keep it safe.",
+          "choose_proposal": "Choose one of the proposals:",
+          "parts": {
+            "use": "use",
+            "instead": "instead"
+          }
+        },
+        {
+          "title": "Seeking Freedom Beyond the Rabbit Hole: Thesis I",
+          "subtitle": "September 15, 2023\nLast updated on April 30, 2024",
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/thesis-i",
+          "date": "Sep 2023",
+          "warning": "In development stage",
+          "incomplete": "Incomplete",
+          "incomplete_content": "To unlock the entire paper, sign the words below:",
+          "signature": "Signature",
+          "verify": "Verify",
+          "notification": {
+            "title": "Sorry :(",
+            "content": "This page does not have a running function yet."
+          }
+        },
+        {
+          "title": "Diving into the Rabbit Hole: Perspective of Computer Science",
+          "subtitle": "September 12, 2023",
+          "pinned": false,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/perspective-of-computer-science",
+          "date": "Sep 2023",
+          "warning": "Warning: These notes contain opinions, personal experiences, and extreme points of view about computer science in a lecture context. Not intended to demean or offend any party; please do not digest it completely without further consideration. By pressing \"Read more\" you are deemed to understand.",
+          "buttons": {
+            "read_more": "Read More",
+            "close": "Close"
+          },
+          "content": "Have you ever felt that high grades or GPA are not everything in the world of education? This note contains my views which may be very different, perhaps even you will dispute them. I am not asking for anything else to force you to agree with my opinion or views; my principle is to prioritize self-understanding and development rather than just chasing high grades or GPA. My educational background is a high school graduate majoring in natural sciences (science).\n\nLet's start with something interesting. At the end of the semester, my professor emphatically stated, \"You don't need to be an Informatics student to be a programmer or software developer.\" I completely agreed with his views, while most of the other students were shocked to hear that. How would you feel if, amidst the confusion and exhaustion of college, you heard a statement like that towards the end of the semester? Will you regret choosing the Informatics major? Haha, I personally don't feel sorry. I agree with the lecturer, just because when I heard his argument, I have proven it by making around sixty million IDR or around $3,900 from just one software project that only uses the JavaScript programming language (the project is still running and productive to this day ). For additional information, my campus doesn't teach JavaScript at all.\n\nNow maybe you understand why I don't really prioritize GPA. For me, grades are just scribbles on paper and mere recognition that gets in the way of my goals. I don't believe that having high grades means having great skills. I believe that grades should be proven through real actions and responsibilities.\n\nPerhaps you are wondering how can I be productive through Computer Science with a less than good academic reputation? Before I answer, consider your goals when entering university. Is it true that you only go to university for money and for money? Do you think that a degree is the only path to a good job? My answer is to choose to ignore the grades and focus on the financial aspect first. That doesn't mean I don't need grades; I just put it aside.\n\nI didn't make this decision carelessly. I have a specific reason why I don't believe in grades. You might call me crazy or stupid, and I won't argue, considering my GPA is below average. I worry because many have high grades but struggle in the real world. Even though this is actually none of my business, I feel worried because high grades don't always mean having practical skills.\n\nWant to hear something surprising again? My professor said that \"90% of students who take seminars are all messed up\" and yet they still pass. I also received several offers to help my classmates who had higher grades than me in completing their theses; only some offers I accept because they offer money rather than grades or mere recognition.\n\nIf so, from which perspective should I believe in grades?",
+          "resolution": {
+            "title": "Resolution: Things to consider if you want to delve into Computer Science on a self-taught or undergraduate level in Informatics.",
+            "content": "Don't worry, even if you don't graduate from a vocational school or major in natural sciences (science). I'm sure you can become a professional in the field of computer science just by using the internet (studying on your own or without attending lectures). I was also completely blind when I first got into the world of computer science, and one of my fears was math, even JavaScript is no exception.\n\nDon't assume that college is the only way to get a job. Out there, there are many people who do not have academic degrees but are able to provide a good education to their children. What do you think they use to finance their children's education? leaf? Study to improve yourself and build a reputation. With a degree, your job position can rise and you can earn a higher salary. However, remember that you must also be responsible for the name and title you obtain.\n\nYou can truly become an expert with an independent (self-taught) learning approach. If you choose this path, college will be a necessity (additional), while if you choose another route, college may become more focused on necessity (main). Apart from expertise, having a wide network or connections is also very important if you take the autodidactic route. In fact, in the end, when you are at university, you will still be required to develop your independent learning abilities significantly, but with guidance and direction from lecturers.\n\nAfter you enter university, you will follow a predetermined curriculum. You will encounter a variety of subjects, some of which may be considered optional in my view, depending on your aspirations. The subjects you will face cover various fields, from Programming Algorithms, Software Engineering, Calculus, Artificial Intelligence, Design, to Software Testing.\n\nWhy is it optional? In my view, trying to master all subjects may be too much, but there is no harm in being able to do it. My advice is, instead of trying hard to achieve the highest score in all subjects that end up being forgotten (because they are useless in the world of work), it is better for you to focus on achieving your goals. Look for sufficient grades for irrelevant subjects and maximize lessons that are relevant to your future career goals.\n\nNote that each lecturer also has their own area of expertise. I'm sure that when you go to college, you won't see mathematics lecturers directly implementing and explaining the relationship between mathematics and computer science (programs). Apart from that, it is rare for lecturers who teach programming to apply mathematical knowledge from previous lecturers directly into the program they teach you. All of this is your responsibility in self-development, and goes back to achieving your goals. Will your future work require an understanding of complex mathematics? If not, you don't need to overdo it in maximizing your understanding of mathematics.\n\nWhy should you try hard to master all subjects? Do you want to be an avatar? I consider this a waste of time. Remember, a boxer is not required to be able to fly like a pilot, and vice versa.\n\nSo, what I mean is not to think that college and certain subjects are not important. Maybe you will feel it yourself later when you enter college. Even though it is called a \"Major\" I don't think it is at all focused or specific, but rather broad and expansive. There, many subjects are optional (each subject can lead to different professions) but you are expected to get good grades overall. This may be an obstacle if you have found a particular passion or goal. Is it possible to master all professions?\n\nThese notes help you plan preparations that are appropriate to your achievements in advance, so that there will be no waste of time and energy. Yes, I fully understand that in science, nothing is wasted if we study it sincerely.\n\nIn the end, whether it's grades (GPA) or college, everything has value and relevance if it suits each individual's needs and goals . If you are able, there is no harm in going to college and still paying attention to grades, but if you agree with my opinion, try to get adequate grades in subjects that are not relevant to your goals (avoid repeating). Focus more on developing your skills and achieving your career goals in the future, and try to achieve high grades in subjects that are relevant to your profession.\n\nIn the worst situation, if you experience something similar to me and even graduate late, don't sad. When you finally graduate, your work experience and flying hours will be enough to find a good job. Especially if you have been able to earn a steady income during your studies from computer science itself, what do you need to worry about? Academic grades? Haha.\n\nDon't just look for grades with the aim of graduating, but look for grades that you can be responsible for. Don't let yourself work in a field that doesn't match what you learned during your studies after graduating; it is a waste of money, time and energy."
+          }
+        },
+        {
+          "title": "Blooming Red Roses: An Introduction",
+          "subtitle": "February 24, 2023\nLast updated on May 20, 2024",
+          "pinned": true,
+          "noprint": {
+            "title": false,
+            "subtitle": false
+          },
+          "path": "/write/an-introduction",
+          "date": "Feb 2023",
+          "social_links": {
+            "github": "https://github.com/rvnrstnsyh",
+            "gitlab": "https://gitlab.com/rvnrstnsyh",
+            "docker": "https://hub.docker.com/u/rvnrstnsyh",
+            "linkedin": "https://linkedin.com/in/rvnrstnsyh"
+          },
+          "about": {
+            "me": {
+              "title": "About Me?",
+              "content": "I write software, JavaScript as the main language."
+            },
+            "site": {
+              "title": "About This Site?",
+              "content": "Development begins in February/March 2023. This is my platform to accommodate written work and the software I create. Utilizing Next.js 14 which I created specifically for the client side only, this site is designed to be as simple as possible, inspired by the default NGINX page. Currently only a few pages on this site communicate with the server, referred to as 'Unknown BE' through a proxy.\n\nI ensure that this site is safe by design for public use."
+            },
+            "darknet": {
+              "title": "Hidden Service (TOR)",
+              "content": "This site is also online on the darknet, you can access it with JavaScript enabled ",
+              "url": "http://unicorn465jakmpxhawaumyujt52wess5qhal6ng3dcm32uprpzy33qd.onion",
+              "label": "here"
+            }
+          }
+        }
+      ]
+    },
+    "components": {
+      "pinned": "Pinned",
+      "latest": "Latest",
+      "oldest": "Oldest"
+    }
+  },
+  "BuyMeACoffee": {
+    "title": "Buy Me a Coffee",
+    "subtitle": "Last updated on May 20, 2024",
+    "contents": {
+      "s1": "Anything on all ",
+      "s2": "EVM-compatible networks"
+    },
+    "components": {}
+  }
+}
